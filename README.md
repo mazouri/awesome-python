@@ -5,12 +5,12 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 灵感来源于 [awesome-php](https://github.com/ziadoz/awesome-php).
 
 - [Awesome Python](#awesome-python)
-    - [Admin Panels](#admin-panels)
-    - [Algorithms and Design Patterns](#algorithms-and-design-patterns)
-    - [Anti-spam](#anti-spam)
-    - [Asset Management](#asset-management)
-    - [Audio](#audio)
-    - [Authentication](#authentication)
+    - [管理面板](#管理面板)
+    - [算法与设计模式](#算法与设计模式)
+    - [反垃圾邮件](#反垃圾邮件)
+    - [资源管理](#资源管理)
+    - [音频](#音频)
+    - [认证](#认证)
     - [Build Tools](#build-tools)
     - [Caching](#caching)
     - [ChatOps Tools](#chatops-tools)
@@ -101,7 +101,7 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 - - -
 
-## Admin Panels
+## 管理面板
 
 *Libraries for administrative interfaces.*
 
@@ -113,9 +113,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [Grappelli](http://grappelliproject.com) - A jazzy skin for the Django Admin-Interface.
 * [Wooey](https://github.com/wooey/wooey) - A Django app which creates automatic web UIs for Python scripts.
 
-## 算法与数据结构
+## 算法与设计模式
 
-*算法与数据结构的Python实现*
+*算法与设计模式的Python实现*
 
 * [algorithms](https://github.com/nryoung/algorithms) - Python的一个算法模块.
 * [PyPattyrn](https://github.com/tylerlaberge/PyPattyrn) - 一个简单且有效的设计模式Python库。
