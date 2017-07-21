@@ -4,17 +4,17 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 灵感来源于 [awesome-php](https://github.com/ziadoz/awesome-php).
 
-- [Awesome Python](#awesome-python)
+- [Python最佳实践](#Python最佳实践)
     - [管理面板](#管理面板)
     - [算法与设计模式](#算法与设计模式)
     - [反垃圾邮件](#反垃圾邮件)
     - [资源管理](#资源管理)
     - [音频](#音频)
     - [认证](#认证)
-    - [Build Tools](#build-tools)
-    - [Caching](#caching)
-    - [ChatOps Tools](#chatops-tools)
-    - [CMS](#cms)
+    - [构建工具](#构建工具)
+    - [缓存](#缓存)
+    - [ChatOps 工具](#ChatOps 工具)
+    - [CMS](#CMS)
     - [Code Analysis and Linter](#code-analysis-and-linter)
     - [Command-line Tools](#command-line-tools)
     - [Compatibility](#compatibility)
