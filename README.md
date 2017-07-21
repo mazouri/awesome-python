@@ -57,7 +57,7 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
     - [机器学习](#机器学习)
     - [MapReduce](#MapReduce)
     - [Miscellaneous](#miscellaneous)
-    - [微软 Windows](#微软 Windows)
+    - [微软Windows](#微软Windows)
     - [自然语言处理](#自然语言处理)
     - [网络虚拟化](#网络虚拟化)
     - [网络编程](#网络编程)
@@ -756,7 +756,7 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [PySpark](http://spark.apache.org/docs/latest/programming-guide.html) - The Spark Python API.
 * [streamparse](https://github.com/Parsely/streamparse) - Run Python code against real-time streams of data. Integrates with [Apache Storm](http://storm.apache.org/).
 
-## 微软 Windows
+## 微软Windows
 
 *在微软Windows进行Python编程*
 
