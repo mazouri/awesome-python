@@ -879,17 +879,17 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [django-guardian](https://github.com/django-guardian/django-guardian) - Implementation of per object permissions for Django 1.2+
 * [django-rules](https://github.com/dfunckt/django-rules) - A tiny but powerful app providing object-level permissions to Django, without requiring a database.
 
-## Processes
+## 进程
 
-*Libraries for starting and communicating with OS processes.*
+*启动和与系统进程通信的库*
 
 * [envoy](https://github.com/kennethreitz/envoy) - Python [subprocess](https://docs.python.org/2/library/subprocess.html) for Humans™.
 * [sarge](http://sarge.readthedocs.io/en/latest/) - Yet another wrapper for subprocess.
 * [sh](https://github.com/amoffat/sh) - A full-fledged subprocess replacement for Python.
 
-## Queue
+## 队列
 
-*Libraries for working with event and task queues.*
+*工作活动和任务队列的库*
 
 * [celery](http://www.celeryproject.org/) - An asynchronous task queue/job queue based on distributed message passing.
 * [huey](https://github.com/coleifer/huey) - Little multi-threaded task queue.
@@ -899,7 +899,7 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 ## Recommender Systems
 
-*Libraries for building recommender systems*
+*推荐系统的库*
 
 * [annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage.
 * [fastFM](https://github.com/ibayer/fastFM) - A library for Factorization Machines.
@@ -909,7 +909,7 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 ## RESTful API
 
-*Libraries for developing RESTful APIs.*
+*开发REST风格的API库*
 
 * Django
     * [django-rest-framework](http://www.django-rest-framework.org/) - A powerful and flexible toolkit to build web APIs.
@@ -929,17 +929,17 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
     * [ripozo](https://github.com/vertical-knowledge/ripozo) - Quickly creating REST/HATEOAS/Hypermedia APIs.
     * [sandman](https://github.com/jeffknupp/sandman) - Automated REST APIs for existing database-driven systems.
 
-## RPC Servers
+## RPC服务器
 
-*RPC-compatible servers.*
+*RPC兼容服务器*
 
 * [SimpleJSONRPCServer](https://github.com/joshmarshall/jsonrpclib/) - This library is an implementation of the JSON-RPC specification.
 * [SimpleXMLRPCServer](https://docs.python.org/2/library/simplexmlrpcserver.html) - (Python standard library) Simple XML-RPC server implementation, single-threaded.
 * [zeroRPC](https://github.com/0rpc/zerorpc-python) - zerorpc is a flexible RPC implementation based on [ZeroMQ](http://zeromq.org/) and [MessagePack](http://msgpack.org/).
 
-## Science
+## 科学
 
-*Libraries for scientific computing.*
+*科学计算库*
 
 * [astropy](http://www.astropy.org/) - A community Python library for Astronomy.
 * [bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen) - Providing best-practice pipelines for fully automated high throughput sequencing analysis.
@@ -960,9 +960,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [Zipline](https://github.com/quantopian/zipline) - A Pythonic algorithmic trading library.
 * [SimPy](https://bitbucket.org/simpy/simpy) -  A process-based discrete-event simulation framework.
 
-## Search
+## 搜索
 
-*Libraries and software for indexing and performing search queries on data.*
+*对数据进行索引和搜索查询的库和软件*
 
 * [django-haystack](https://github.com/django-haystack/django-haystack) - Modular search for Django.
 * [elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py) - The official high-level Python client for Elasticsearch.
@@ -972,23 +972,23 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [solrpy](https://github.com/edsu/solrpy) - A Python client for [solr](http://lucene.apache.org/solr/).
 * [Whoosh](http://whoosh.readthedocs.io/en/latest/) - A fast, pure Python search engine library.
 
-## Serialization
+## 序列化
 
-*Libraries for serializing complex data types*
+*序列化复杂的数据类型库*
 
 * [marshmallow](https://github.com/marshmallow-code/marshmallow) - marshmallow is an ORM/ODM/framework-agnostic library for converting complex datatypes, such as objects, to and from native Python datatypes.
 
-## Serverless Frameworks
+## 无服务器的框架
 
-*Frameworks for developing serverless Python code.*
+*开发无服务器的Python代码框架*
 
 * [apex](https://github.com/apex/apex) - Build, deploy, and manage [AWS Lambda](https://aws.amazon.com/lambda/) functions with ease.
 * [python-lambda](https://github.com/nficano/python-lambda) - A toolkit for developing and deploying Python code in AWS Lambda.
 * [Zappa](https://github.com/Miserlou/Zappa) - A tool for deploying WSGI applications on AWS Lambda and API Gateway.
 
-## Specific Formats Processing
+## 具体的格式处理
 
-*Libraries for parsing and manipulating specific text formats.*
+*解析和处理具体的文本格式的库*
 
 * General
     * [tablib](https://github.com/kennethreitz/tablib) - A module for Tabular Datasets in XLS, CSV, JSON, YAML.
@@ -1016,9 +1016,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * Archive
     * [unp](https://github.com/mitsuhiko/unp) - A command line tool that can unpack archives easily.
 
-## Static Site Generator
+## 静态网站生成器
 
-*Static site generator is a software that takes some text + templates as input and produces HTML files on the output.*
+*静态网站生成器是一个软件，需要一些文本模板作为输入并生成HTML文件的输出*
 
 * [Cactus](https://github.com/eudicots/Cactus) - Static site generator for designers.
 * [Hyde](http://hyde.github.io/) - Jinja2-based static web site generator.
@@ -1029,21 +1029,21 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 ## Tagging
 
-*Libraries for tagging items.*
+*用于标记项目的库*
 
 * [django-taggit](https://github.com/alex/django-taggit) - Simple tagging for Django.
 
-## Template Engine
+## 模板引擎
 
-*Libraries and tools for templating and lexing.*
+*模板和词法分析的库和工具*
 
 * [Genshi](https://genshi.edgewall.org/) - Python templating toolkit for generation of web-aware output.
 * [Jinja2](https://github.com/pallets/jinja) - A modern and designer friendly templating language.
 * [Mako](http://www.makotemplates.org/) - Hyperfast and lightweight templating for the Python platform.
 
-## Testing
+## 测试
 
-*Libraries for testing codebases and generating test data.*
+*测试代码库和测试数据生成相关的库*
 
 * Testing Frameworks
     * [hypothesis](https://github.com/HypothesisWorks/hypothesis-python) - Hypothesis is an advanced Quickcheck style property based testing library.
@@ -1084,9 +1084,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * Error Handler
     * [FuckIt.py](https://github.com/ajalt/fuckitpy) - FuckIt.py uses state-of-the-art technology to make sure your Python code runs whether it has any right to or not.
 
-## Text Processing
+## 文本处理
 
-*Libraries for parsing and manipulating plain texts.*
+*解析和处理纯文本的库*
 
 * General
     * [chardet](https://github.com/chardet/chardet) - Python 2/3 compatible character encoding detector.
@@ -1113,9 +1113,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
     * [python-user-agents](https://github.com/selwin/python-user-agents) - Browser user agent parser.
     * [sqlparse](https://github.com/andialbrecht/sqlparse) - A non-validating SQL parser.
 
-## Third-party APIs
+## 第三方 APIs
 
-*Libraries for accessing third party services APIs. See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers).*
+*访问第三方服务API的库 See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers).*
 
 * [apache-libcloud](https://libcloud.apache.org/) - One Python library for all clouds.
 * [boto3](https://github.com/boto/boto3) - Python interface to Amazon Web Services.
@@ -1127,9 +1127,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [gspread](https://github.com/burnash/gspread) - Google Spreadsheets Python API.
 * [twython](https://github.com/ryanmcgrath/twython) - A Python wrapper for the Twitter API.
 
-## URL Manipulation
+## URL处理
 
-*Libraries for parsing URLs.*
+*解析URL相关的库*
 
 * [furl](https://github.com/gruns/furl) - A small Python library that makes parsing and manipulating URLs easy.
 * [purl](https://github.com/codeinthehole/purl) - A simple, immutable URL class with a clean API for interrogation and manipulation.
@@ -1137,16 +1137,16 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [short_url](https://github.com/Alir3z4/python-short_url) - Python implementation for generating Tiny URL and bit.ly-like URLs.
 * [webargs](https://github.com/sloria/webargs) - A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks, including Flask, Django, Bottle, Tornado, and Pyramid.
 
-## Video
+## 视频
 
-*Libraries for manipulating video and GIFs.*
+*操作视频和GIF的库*
 
 * [moviepy](http://zulko.github.io/moviepy/) - A module for script-based movie editing with many formats, including animated GIFs.
 * [scikit-video](https://github.com/aizvorski/scikit-video) - Video processing routines for SciPy.
 
-## WSGI Servers
+## WSGI服务器
 
-*WSGI-compatible web servers.*
+*WSGI兼容的Web服务器*
 
 * [bjoern](https://pypi.python.org/pypi/bjoern) - Asynchronous, very fast and written in C.
 * [fapws3](http://www.fapws.org/) - Asynchronous (network side only), written in C.
@@ -1159,9 +1159,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [waitress](https://waitress.readthedocs.io/en/latest/) - Multi-threaded, powers Pyramid.
 * [Werkzeug](http://werkzeug.pocoo.org/) - A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects.
 
-## Web Content Extracting
+## 网页内容提取
 
-*Libraries for extracting web contents.*
+*提取网页内容的库*
 
 * [Haul](https://github.com/vinta/Haul) - An Extensible Image Crawler.
 * [html2text](https://github.com/Alir3z4/html2text) - Convert HTML to Markdown-formatted text.
@@ -1175,9 +1175,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [sumy](https://github.com/miso-belica/sumy) - A module for automatic summarization of text documents and HTML pages.
 * [textract](https://github.com/deanmalmgren/textract) - Extract text from any document, Word, PowerPoint, PDFs, etc.
 
-## Web Crawling
+## Web爬虫
 
-*Libraries for scraping websites.*
+*检索网站的库*
 
 * [cola](https://github.com/chineking/cola) - A distributed crawling framework.
 * [Demiurge](https://github.com/matiasb/demiurge) - PyQuery-based scraping micro-framework.
@@ -1189,9 +1189,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 * [RoboBrowser](https://github.com/jmcarp/robobrowser) - A simple, Pythonic library for browsing the web without a standalone web browser.
 * [Scrapy](https://scrapy.org/) - A fast high-level screen scraping and web crawling framework.
 
-## Web Frameworks
+## Web框架
 
-*Full stack web frameworks.*
+*全栈的Web框架*
 
 * [Bottle](http://bottlepy.org/docs/dev/index.html) - A fast, simple and lightweight WSGI micro web-framework.
 * [CherryPy](http://cherrypy.org/) - A minimalist Python web framework, HTTP/1.1-compliant and WSGI thread-pooled.
@@ -1209,92 +1209,9 @@ Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
 ## WebSocket
 
-*Libraries for working with WebSocket.*
+*WebSocket相关的库*
 
 * [AutobahnPython](https://github.com/crossbario/autobahn-python) - WebSocket & WAMP for Python on Twisted and [asyncio](https://docs.python.org/3/library/asyncio.html).
 * [Crossbar](https://github.com/crossbario/crossbar/) - Open-source Unified Application Router (Websocket & WAMP for Python on Autobahn).
 * [django-socketio](https://github.com/stephenmcd/django-socketio) - WebSockets for Django.
 * [WebSocket-for-Python](https://github.com/Lawouach/WebSocket-for-Python) - WebSocket client and server library for Python 2 and 3 as well as PyPy.
-
-# Services
-
-Online tools and APIs to simplify development.
-
-## Continuous Integration
-
-*See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).*
-
-* [CircleCI](https://circleci.com/) - A CI service that can run very fast parallel testing. (GitHub only)
-* [Travis CI](https://travis-ci.org) - A popular CI service for your open source and [private](https://travis-ci.com) projects. (GitHub only)
-* [Vexor CI](https://vexor.io) - A continuous integration tool for private apps with pay-per-minute billing model.
-* [Wercker](http://www.wercker.com/) - A Docker-based platform for building and deploying applications and microservices.
-
-## Code Quality
-
-* [Codacy](https://www.codacy.com/) - Automated Code Review to ship better code, faster. Free for Open Source.
-* [Codecov](https://codecov.io/) - Code coverage dashboard.
-* [Landscape](https://landscape.io/) - Hosted continuous Python code metrics.
-* [QuantifiedCode](https://www.quantifiedcode.com/) - A data-driven, automated, continuous code review tool.
-
-# Resources
-
-Where to discover new Python libraries.
-
-## Podcasts
-
-* [Podcast.init](https://podcastinit.com/)
-* [Talk Python To Me](https://talkpython.fm/)
-* [Python Bytes](https://pythonbytes.fm)
-
-## Twitter
-
-* [@codetengu](https://twitter.com/codetengu)
-* [@getpy](https://twitter.com/getpy)
-* [@importpython](https://twitter.com/importpython)
-* [@planetpython](https://twitter.com/planetpython)
-* [@pycoders](https://twitter.com/pycoders)
-* [@pypi](https://twitter.com/pypi)
-* [@pythontrending](https://twitter.com/pythontrending)
-* [@PythonWeekly](https://twitter.com/PythonWeekly)
-* [@TalkPython](https://twitter.com/talkpython)
-
-## Websites
-
-* [/r/CoolGithubProjects](https://www.reddit.com/r/coolgithubprojects/)
-* [/r/Python](https://www.reddit.com/r/python)
-* [Awesome Python @LibHunt](https://python.libhunt.com/)
-* [Django Packages](https://djangopackages.org/)
-* [Full Stack Python](https://www.fullstackpython.com/)
-* [PyPI Ranking](http://pypi-ranking.info/alltime)
-* [Python 3 Wall of Superpowers](http://python3wos.appspot.com/)
-* [Python Hackers](http://www.oss.io/open-source/)
-* [Python ZEEF](https://python.zeef.com/alan.richmond)
-* [Python 开发社区](https://www.ctolib.com/python/)
-* [Trending Python repositories on GitHub today](https://github.com/trending?l=python)
-
-## Weekly
-
-* [CodeTengu Weekly](https://weekly.codetengu.com/)
-* [Import Python Newsletter](http://importpython.com/newsletter/)
-* [Pycoder's Weekly](http://pycoders.com/)
-* [Python Weekly](http://www.pythonweekly.com/)
-* [Python Bytes](https://pythonbytes.fm)
-
-# Other Awesome Lists
-
-List of lists.
-
-* Monty
-    * [awesome](https://github.com/sindresorhus/awesome)
-    * [lists](https://github.com/jnv/lists)
-* Python
-    * [pycrumbs](https://github.com/kirang89/pycrumbs)
-    * [python-github-projects](https://github.com/checkcheckzz/python-github-projects)
-    * [python_reference](https://github.com/rasbt/python_reference)
-    * [pythonidae](https://github.com/svaksha/pythonidae)
-
-# Contributing
-
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/vinta/awesome-python/blob/master/CONTRIBUTING.md) first.
-
-I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/vinta/awesome-python/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **20**.
