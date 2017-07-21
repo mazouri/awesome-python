@@ -1,8 +1,8 @@
-# Awesome Python [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Python最佳实践 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Python frameworks, libraries, software and resources.
+Python最佳实践，包含丰富的Python框架，库，软件及资源。
 
-Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
+灵感来源于 [awesome-php](https://github.com/ziadoz/awesome-php).
 
 - [Awesome Python](#awesome-python)
     - [Admin Panels](#admin-panels)
@@ -113,40 +113,40 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Grappelli](http://grappelliproject.com) - A jazzy skin for the Django Admin-Interface.
 * [Wooey](https://github.com/wooey/wooey) - A Django app which creates automatic web UIs for Python scripts.
 
-## Algorithms and Design Patterns
+## 算法与数据结构
 
-*Python implementation of algorithms and design patterns.*
+*算法与数据结构的Python实现*
 
-* [algorithms](https://github.com/nryoung/algorithms) - A module of algorithms for Python.
-* [PyPattyrn](https://github.com/tylerlaberge/PyPattyrn) - A simple yet effective library for implementing common design patterns.
-* [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns in Python.
-* [sortedcontainers](http://www.grantjenks.com/docs/sortedcontainers/) - Fast, pure-Python implementation of SortedList, SortedDict, and SortedSet types.
+* [algorithms](https://github.com/nryoung/algorithms) - Python的一个算法模块.
+* [PyPattyrn](https://github.com/tylerlaberge/PyPattyrn) - 一个简单且有效的设计模式Python库。
+* [python-patterns](https://github.com/faif/python-patterns) - 收集了设计模式的Python实现
+* [sortedcontainers](http://www.grantjenks.com/docs/sortedcontainers/) - 纯Python快速实现SortedList，SortedDict，和SortedSet集合
 
-## Anti-spam
+## 反垃圾邮件
 
-*Libraries for fighting spam.*
+*一些反垃圾邮件的库*
 
-* [django-simple-captcha](https://github.com/mbi/django-simple-captcha) - A simple and highly customizable Django app to add captcha images to any Django form.
-* [django-simple-spam-blocker](https://github.com/moqada/django-simple-spam-blocker) - Simple spam blocker for Django.
+* [django-simple-captcha](https://github.com/mbi/django-simple-captcha) - 一个简单且可高度定制的Django程序给任意Django表单添加验证码图像。
+* [django-simple-spam-blocker](https://github.com/moqada/django-simple-spam-blocker) - 简单的Django垃圾邮件拦截器。
 
-## Asset Management
+## 资源管理
 
-*Tools for managing, compressing and minifying website assets.*
+*管理，压缩和最小化网站资源的工具*
 
-* [django-compressor](https://github.com/django-compressor/django-compressor) - Compresses linked and inline JavaScript or CSS into a single cached file.
-* [django-pipeline](https://github.com/jazzband/django-pipeline) - An asset packaging library for Django.
-* [django-storages](https://github.com/jschneier/django-storages) - A collection of custom storage back ends for Django.
-* [fanstatic](http://www.fanstatic.org/en/latest/) - Packages, optimizes, and serves static file dependencies as Python packages.
-* [fileconveyor](http://wimleers.com/fileconveyor) - A daemon to detect and sync files to CDNs, S3 and FTP.
-* [flask-assets](https://github.com/miracle2k/flask-assets) - Helps you integrate webassets into your Flask app.
-* [jinja-assets-compressor](https://github.com/jaysonsantos/jinja-assets-compressor) - A Jinja extension to compile and compress your assets.
-* [webassets](https://github.com/miracle2k/webassets) - Bundles, optimizes, and manages unique cache-busting URLs for static resources.
+* [django-compressor](https://github.com/django-compressor/django-compressor) - 压缩和内联JavaScript或CSS链接到一个单一的缓存文件。
+* [django-pipeline](https://github.com/jazzband/django-pipeline) - 一个Django资源包装库.
+* [django-storages](https://github.com/jschneier/django-storages) - 一组自定义Django后端存储
+* [fanstatic](http://www.fanstatic.org/en/latest/) - 包，优化，和服务的静态文件依赖Python包
+* [fileconveyor](http://wimleers.com/fileconveyor) - 一个守护进程来检测和同步文件到CDN，S3和FTP.
+* [flask-assets](https://github.com/miracle2k/flask-assets) - 帮助你整合webassets到你的Flask程序。
+* [jinja-assets-compressor](https://github.com/jaysonsantos/jinja-assets-compressor) - 一个Jinja扩展来编译和压缩你的资源。
+* [webassets](https://github.com/miracle2k/webassets) - 为静态资源进行捆绑，优化和管理唯一的缓存清除URLs。
 
-## Audio
+## 音频
 
-*Libraries for manipulating audio.*
+*操纵音频的库*
 
-* [audiolazy](https://github.com/danilobellini/audiolazy) - Expressive Digital Signal Processing (DSP) package for Python.
+* [audiolazy](https://github.com/danilobellini/audiolazy) - 富有表现力的数字信号处理（DSP）的Python包.
 * [audioread](https://github.com/beetbox/audioread) - Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding.
 * [beets](http://beets.io/) - A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger.
 * [dejavu](https://github.com/worldveil/dejavu) - Audio fingerprinting and recognition.
@@ -163,9 +163,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [TimeSide](https://github.com/Parisson/TimeSide) - Open web audio processing framework.
 * [tinytag](https://github.com/devsnd/tinytag) - A library for reading music meta data of MP3, OGG, FLAC and Wave files.
 
-## Authentication
+## 认证
 
-*Libraries for implementing authentications schemes.*
+*实现认证方案库*
 
 * OAuth
     * [Authomatic](http://peterhudec.github.io/authomatic/) - Simple but powerful framework agnostic authentication/authorization client.
@@ -183,9 +183,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [python-jws](https://github.com/brianloveswords/python-jws) - Implementation of JSON Web Signatures draft 02.
     * [python-jwt](https://github.com/davedoesdev/python-jwt) - Module for generating and verifying JSON Web Tokens.
 
-## Build Tools
+## 构建工具
 
-*Compile software from source code.*
+*从源代码编译软件*
 
 * [BitBake](http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html) - A make-like build tool for embedded Linux.
 * [buildout](http://www.buildout.org/en/latest/) - A build system for creating, assembling and deploying applications from multiple parts.
@@ -195,7 +195,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## CMS
 
-*Content Management Systems.*
+*内容管理系统（Content Management Systems）*
 
 * [django-cms](https://www.django-cms.org/en/) - An Open source enterprise CMS based on the Django.
 * [djedi-cms](http://djedi-cms.org/) - A lightweight but yet powerful Django CMS with plugins, inline editing and performance in mind.
@@ -208,9 +208,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Wagtail](https://wagtail.io/) - A Django content management system.
 * [Widgy](https://wid.gy/) - Last CMS framework, based on Django.
 
-## Caching
+## 缓存
 
-*Libraries for caching data.*
+*数据缓存的库*
 
 * [Beaker](https://github.com/bbangert/beaker) - A library for caching and sessions for use with web applications and stand-alone Python scripts and applications.
 * [DiskCache](http://www.grantjenks.com/docs/diskcache/) - SQLite and file backed cache backend with faster lookups than memcached and redis.
@@ -222,32 +222,33 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [johnny-cache](https://github.com/jmoiron/johnny-cache) - A caching framework for django applications.
 * [pylibmc](https://github.com/lericson/pylibmc) - A Python wrapper around the [libmemcached](http://libmemcached.org/libMemcached.html) interface.
 
-## ChatOps Tools
+## ChatOps 工具
 
-*Libraries for chatbot development.*
+*聊天开发库*
 
 * [Errbot](http://errbot.io/en/latest/) - The easiest and most popular chatbot to implement ChatOps.
 
-## Code Analysis and Linter
+## 代码分析和校验
 
-*Libraries and tools for analysing, parsing and manipulation codebases.*
+*分析，解析和操作代码库的库和工具*
 
-* Code Analysis
+* 代码分析
     * [coala](http://coala.io/) - Language independent and easily extendable code analysis application.
     * [code2flow](https://github.com/scottrogowski/code2flow) - Turn your Python and JavaScript code into DOT flowcharts.
     * [pycallgraph](https://github.com/gak/pycallgraph) - A library that visualises the flow (call graph) of your Python application.
     * [pysonar2](https://github.com/yinwang0/pysonar2) - A type inferencer and indexer for Python.
-* Linter
+* 代码校验
     * [Flake8](https://pypi.python.org/pypi/flake8) - The modular source code checker: pep8, pyflakes and co.
     * [pylama](https://github.com/klen/pylama) - Code audit tool for Python and JavaScript.
     * [Pylint](https://www.pylint.org/) - A Fully customizable source code analyzer.
 
-## Command-line Tools
+## 命令行工具
 
-*Libraries for building command-line application.*
+*构建命令行应用的库*
 
-* Command-line Application Development
-    * [asciimatics](https://github.com/peterbrittain/asciimatics) - Cross-platform, full-screen terminal package (i.e.  mouse/keyboard input and coloured, positioned text output) complete with high-level API for complex animations and special effects.
+* 命令行应用开发
+    * [asciimatics](https://github.com/peterbrittain/asciimatics) - Cross-platform, full-screen terminal package (i.e.  mouse/keyboard input and coloured, positioned text output) complete with high-level API for complex animations and special effects.
+    * [asciimatics](https://github.com/peterbrittain/asciimatics) - Cross-platform, full-screen terminal package (i.e.  mouse/keyboard input and coloured, positioned text output) complete with high-level API for complex animations and special effects.
     * [cement](http://builtoncement.com/) - CLI Application Framework for Python.
     * [click](http://click.pocoo.org/dev/) - A package for creating beautiful command line interfaces in a composable way.
     * [cliff](https://docs.openstack.org/developer/cliff/) - A framework for creating command-line programs with multi-level commands.
@@ -257,8 +258,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [Gooey](https://github.com/chriskiehl/Gooey) - Turn command line programs into a full GUI application with one line
     * [Python-Fire](https://github.com/google/python-fire) - A library for creating command line interfaces (CLIs) from absolutely any Python object.
     * [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) - A Library for building powerful interactive command lines.
-* Productivity Tools
-    * [aws-cli](https://github.com/aws/aws-cli) - A universal command-line interface for Amazon Web Services.
+* 生产力工具
+    * [aws-cli](https://github.com/aws/aws-cli) - A universal command-line interface for Amazon Web Services.
+* 生产力
     * [bashplotlib](https://github.com/glamp/bashplotlib) - Making basic plots in the terminal.
     * [caniusepython3](https://github.com/brettcannon/caniusepython3) - Determine what projects are blocking you from porting to Python 3.
     * [cookiecutter](https://github.com/audreyr/cookiecutter) - A command-line utility that creates projects from cookiecutters (project templates).
@@ -273,26 +275,26 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [thefuck](https://github.com/nvbn/thefuck) - Correcting your previous console command.
     * [try](https://github.com/timofurrer/try) - A dead simple CLI to try out python packages - It's never been easier.
 
-## Compatibility
+## 兼容性
 
-*Libraries for migrating from Python 2 to 3.*
+*Python2迁移到Python3库*
 
 * [Python-Future](http://python-future.org/index.html) - The missing compatibility layer between Python 2 and Python 3.
 * [Python-Modernize](https://github.com/mitsuhiko/python-modernize) - Modernizes Python code for eventual Python 3 migration.
-* [Six](https://pypi.python.org/pypi/six) - Python 2 and 3 compatibility utilities.
+* [Six](https://pypi.python.org/pypi/six) - Python2和Python3兼容工具
 
-## Computer Vision
+## 计算机视觉
 
-*Libraries for computer vision.*
+*计算机视觉库*
 
-* [OpenCV](http://opencv.org/) - Open Source Computer Vision Library.
+* [OpenCV](http://opencv.org/) - 计算机视觉开源库
 * [pyocr](https://github.com/openpaperwork/pyocr) - A wrapper for Tesseract and Cuneiform.
 * [pytesseract](https://github.com/madmaze/pytesseract) - Another wrapper for [Google Tesseract OCR](https://github.com/tesseract-ocr).
 * [SimpleCV](http://simplecv.org/) - An open source framework for building computer vision applications.
 
-## Concurrency and Parallelism
+## 并发和并行执行
 
-*Libraries for concurrent and parallel execution.*
+*并发和并行执行的库*
 
 * [eventlet](http://eventlet.net/) - Asynchronous framework with WSGI support.
 * [gevent](http://www.gevent.org/) - A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet).
@@ -301,9 +303,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Tomorrow](https://github.com/madisonmay/Tomorrow) - Magic decorator syntax for asynchronous code.
 * [uvloop](https://github.com/MagicStack/uvloop) - Ultra fast implementation of asyncio event loop on top of libuv.
 
-## Configuration
+## 配置
 
-*Libraries for storing and parsing configuration options.*
+*用于存储和解析配置选项的库*
 
 * [config](https://www.red-dove.com/config-doc/) - Hierarchical config from the author of [logging](https://docs.python.org/2/library/logging.html).
 * [ConfigObj](http://www.voidspace.org.uk/python/configobj.html) - INI file parser with validation.
@@ -311,7 +313,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [profig](http://profig.readthedocs.org/en/default/) - Config from multiple formats with value conversion.
 * [python-decouple](https://github.com/henriquebastos/python-decouple) - Strict separation of settings from code.
 
-## Cryptography
+## 密码
 
 * [cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers.
 * [hashids](https://github.com/davidaurelio/hashids-python) - Implementation of [hashids](http://hashids.org) in Python.
@@ -319,18 +321,18 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Passlib](https://pythonhosted.org/passlib/) - Secure password storage/hashing library, very high level.
 * [PyNacl](https://github.com/pyca/pynacl) - Python binding to the Networking and Cryptography (NaCl) library.
 
-## Data Analysis
+## 数据分析
 
-*Libraries for data analyzing.*
+*数据分析库*
 
 * [Blaze](https://github.com/blaze/blaze) - NumPy and Pandas interface to Big Data.
 * [Open Mining](https://github.com/mining/mining) - Business Intelligence (BI) in Pandas interface.
 * [Orange](https://orange.biolab.si/) - Data mining, data visualization, analysis and machine learning through visual programming or scripts.
 * [Pandas](http://pandas.pydata.org/) - A library providing high-performance, easy-to-use data structures and data analysis tools.
 
-## Data Validation
+## 数据验证
 
-*Libraries for validating data. Used for forms in many cases.*
+*验证数据的库*
 
 * [Cerberus](https://github.com/pyeve/cerberus) - A lightweight and extensible data validation library.
 * [colander](https://docs.pylonsproject.org/projects/colander/en/latest/) - Validating and deserializing data obtained via XML, JSON, an HTML form post.
@@ -340,9 +342,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [valideer](https://github.com/podio/valideer) - Lightweight extensible data validation and adaptation library.
 * [voluptuous](https://github.com/alecthomas/voluptuous) - A Python data validation library.
 
-## Data Visualization
+## 数据可视化
 
-*Libraries for visualizing data. See: [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).*
+*数据可视化的库 见: [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).*
 
 * [Altair](https://github.com/altair-viz/altair) - Declarative statistical visualization library for Python.
 * [Bokeh](https://github.com/bokeh/bokeh) - Interactive Web Plotting for Python.
@@ -354,9 +356,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using Matplotlib.
 * [VisPy](https://github.com/vispy/vispy) - High-performance scientific visualization based on OpenGL.
 
-## Database
+## 数据库
 
-*Databases implemented in Python.*
+*数据库的Python实现*
 
 * [pickleDB](https://pythonhosted.org/pickleDB/) - A simple and lightweight key-value store for Python.
 * [PipelineDB](https://www.pipelinedb.com/) - The Streaming SQL Database.
@@ -364,9 +366,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [ZODB](http://www.zodb.org/en/latest/) - A native object database for Python. A key-value and object graph database.
 
 
-## Database Drivers
+## 数据库驱动程序
 
-*Libraries for connecting and operating databases.*
+*用于连接和操作数据库的库*
 
 * MySQL - [awesome-mysql](http://shlomi-noach.github.io/awesome-mysql/)
     * [mysql-python](https://sourceforge.net/projects/mysql-python/) - The MySQL database connector for Python.
@@ -392,9 +394,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [telephus](https://github.com/driftx/Telephus) - Twisted based client for Cassandra.
     * [txRedis](https://github.com/deldotdr/txRedis) - Twisted based client for Redis.
 
-## Date and Time
+## 日期和时间
 
-*Libraries for working with dates and times.*
+*用于日期和时间的库*
 
 * [arrow](https://github.com/crsmithdev/arrow) - Better dates & times for Python.
 * [Chronyk](https://github.com/KoffeinFlummi/Chronyk) - A Python 3 library for parsing human-written times and dates.
@@ -406,9 +408,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [pytz](https://launchpad.net/pytz) - World timezone definitions, modern and historical. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python.
 * [when.py](https://github.com/dirn/When.py) - Providing user-friendly functions to help perform common date and time actions.
 
-## Debugging Tools
+## 调试工具
 
-*Libraries for debugging code.*
+*调试代码的库*
 
 * pdb-like Debugger
     * [ipdb](https://pypi.python.org/pypi/ipdb) - IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html).
@@ -431,9 +433,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [pyelftools](https://github.com/eliben/pyelftools) - Parsing and analyzing ELF files and DWARF debugging information.
     * [pyringe](https://github.com/google/pyringe) - Debugger capable of attaching to and injecting code into Python processes.
 
-## Deep Learning
+## 深度学习
 
-*Frameworks for Neural Networks and Deep Learning. See: [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning).*
+*神经网络和深度学习的框架 See: [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning).*
 
 * [Caffe](https://github.com/BVLC/caffe) - A fast open framework for deep learning..
 * [Keras](https://github.com/fchollet/keras) - A high-level neural networks library and capable of running on top of either TensorFlow or Theano.
@@ -443,9 +445,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [TensorFlow](https://github.com/tensorflow/tensorflow) - The most popular Deep Learning framework created by Google.
 * [Theano](https://github.com/Theano/Theano) - A library for fast numerical computation.
 
-## DevOps Tools
+## DevOps工具
 
-*Software and libraries for DevOps.*
+*DevOps工具库和软件*
 
 * [Ansible](https://github.com/ansible/ansible) - A radically simple IT automation platform.
 * [Cloud-Init](http://cloudinit.readthedocs.io/en/latest/) - A multi-distribution package that handles early initialization of a cloud instance.
@@ -460,9 +462,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [SaltStack](https://github.com/saltstack/salt) - Infrastructure automation and management system.
 * [supervisor](https://github.com/Supervisor/supervisor) - Supervisor process control system for UNIX.
 
-## Distribution
+## 分布
 
-*Libraries to create packaged executables for release distribution.*
+*创建用于release发布的封装的可执行文件的库*
 
 * [dh-virtualenv](https://github.com/spotify/dh-virtualenv) - Build and distribute a virtualenv as a Debian package.
 * [Nuitka](http://nuitka.net/) - Compile scripts, modules, packages to an executable or extension module.
@@ -471,9 +473,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyInstaller](https://github.com/pyinstaller/pyinstaller) - Converts Python programs into stand-alone executables (cross-platform).
 * [pynsist](http://pynsist.readthedocs.io/en/latest/) - A tool to build Windows installers, installers bundle Python itself.
 
-## Documentation
+## 文档
 
-*Libraries for generating project documentation.*
+*生成项目文档的库*
 
 * [Sphinx](http://www.sphinx-doc.org/en/latest/) - Python Documentation generator.
     * [awesome-sphinxdoc](https://github.com/yoloseem/awesome-sphinxdoc)
@@ -481,18 +483,18 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [pdoc](https://github.com/BurntSushi/pdoc) - Epydoc replacement to auto generate API documentation for Python libraries.
 * [Pycco](https://github.com/pycco-docs/pycco) - The literate-programming-style documentation generator.
 
-## Downloader
+## 下载
 
-*Libraries for downloading.*
+*用于下载的库*
 
 * [s3cmd](https://github.com/s3tools/s3cmd) - A command line tool for managing Amazon S3 and CloudFront.
 * [s4cmd](https://github.com/bloomreach/s4cmd) - Super S3 command line tool, good for higher performance.
 * [you-get](http://you-get.org/) - A YouTube/Youku/Niconico video downloader written in Python 3.
 * [youtube-dl](http://rg3.github.io/youtube-dl/) - A small command-line program to download videos from YouTube.
 
-## E-commerce
+## 电子商务
 
-*Frameworks and libraries for e-commerce and payments.*
+*电子商务和支付相关的框架和库*
 
 * [alipay](https://github.com/lxneng/alipay) - Unofficial Alipay API for Python.
 * [Cartridge](https://github.com/stephenmcd/cartridge) - A shopping cart app built using the Mezzanine.
@@ -504,7 +506,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [forex-python](https://github.com/MicroPyramid/forex-python) - Foreign exchange rates, Bitcoin price index and currency conversion.
 * [shoop](https://www.shuup.com/en/) - An open source E-Commerce platform based on Django.
 
-## Editor Plugins and IDEs
+## 编辑器插件和IDE
 
 * Emacs
     * [Elpy](https://github.com/jorgenschaefer/elpy) - Emacs Python Development Environment.
@@ -525,9 +527,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [PyCharm](https://www.jetbrains.com/pycharm/) - Commercial Python IDE by JetBrains. Has free community edition available.
     * [Spyder](https://github.com/spyder-ide/spyder) - Open Source Python IDE.
 
-## Email
+## 电子邮件
 
-*Libraries for sending and parsing email.*
+*用于发送和解析电子邮件的库*
 
 * [envelopes](http://tomekwojcik.github.io/envelopes/) - Mailing for human beings.
 * [flanker](https://github.com/mailgun/flanker) - A email address and Mime parsing library.
@@ -539,9 +541,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Nylas Sync Engine](https://github.com/nylas/sync-engine) - Providing a RESTful API on top of a powerful email sync platform.
 * [yagmail](https://github.com/kootenpv/yagmail) - Yet another Gmail/SMTP client.
 
-## Environment Management
+## 环境管理
 
-*Libraries for Python version and environment management.*
+*Python版本与环境管理*
 
 * [Pipenv](https://github.com/kennethreitz/pipenv) - Sacred Marriage of Pipfile, Pip, & Virtualenv.
 * [p](https://github.com/qw3rtman/p) - Dead simple interactive Python version management.
@@ -550,9 +552,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [virtualenv](https://pypi.python.org/pypi/virtualenv) - A tool to create isolated Python environments.
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - A set of extensions to virtualenv.
 
-## Files
+## 文件
 
-*Libraries for file manipulation and MIME type detection.*
+*文件操作和MIME类型检测相关的库*
 
 * [imghdr](https://docs.python.org/2/library/imghdr.html) - (Python standard library) Determine the type of an image.
 * [mimetypes](https://docs.python.org/2/library/mimetypes.html) - (Python standard library) Map filenames to MIME types.
@@ -562,18 +564,18 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Unipath](https://github.com/mikeorr/Unipath) - An object-oriented approach to file/directory operations.
 * [watchdog](https://github.com/gorakhargosh/watchdog) - API and shell utilities to monitor file system events.
 
-## Foreign Function Interface
+## 对外功能接口
 
-*Libraries for providing foreign function interface.*
+*提供对外接口函数的库*
 
 * [cffi](https://pypi.python.org/pypi/cffi) - Foreign Function Interface for Python calling C code.
 * [ctypes](https://docs.python.org/2/library/ctypes.html) - (Python standard library) Foreign Function Interface for Python calling C code.
 * [PyCUDA](https://mathema.tician.de/software/pycuda/) - A Python wrapper for Nvidia's CUDA API.
 * [SWIG](http://www.swig.org/Doc1.3/Python.html) - Simplified Wrapper and Interface Generator.
 
-## Forms
+## 表单
 
-*Libraries for working with forms.*
+*处理表单的库*
 
 * [Deform](https://github.com/Pylons/deform) - Python HTML form generation library influenced by the formish form generation library.
 * [django-bootstrap3](https://github.com/dyve/django-bootstrap3) - Bootstrap 3 integration with Django.
@@ -581,9 +583,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [django-remote-forms](https://github.com/WiserTogether/django-remote-forms) - A platform independent Django form serializer.
 * [WTForms](https://github.com/wtforms/wtforms) - A flexible forms validation and rendering library.
 
-## Functional Programming
+## Python函数式编程
 
-*Functional Programming with Python.*
+*Python函数式编程*
 
 * [CyToolz](https://github.com/pytoolz/cytoolz/) - Cython implementation of Toolz: High performance functional utilities.
 * [fn.py](https://github.com/kachayev/fn.py) - Functional programming in Python: implementation of missing features to enjoy FP.
@@ -592,7 +594,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## GUI
 
-*Libraries for working with graphical user interface applications.*
+*图形用户界面相关的库*
 
 * [curses](https://docs.python.org/2/library/curses.html#module-curses) - Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal GUI applications.
 * [enaml](https://github.com/nucleic/enaml) - Creating beautiful user-interfaces with Declaratic Syntax like QML.
@@ -608,9 +610,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [urwid](http://urwid.org/) - A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.
 * [wxPython](https://wxpython.org/) - A blending of the wxWidgets C++ class library with the Python.
 
-## Game Development
+## 游戏开发
 
-*Awesome game development libraries.*
+*游戏开发库*
 
 * [Cocos2d](http://cocos2d.org/) - cocos2d is a framework for building 2D games, demos, and other graphical/interactive applications. It is based on pyglet.
 * [Panda3D](https://www.panda3d.org/) - 3D game engine developed by Disney and maintained by Carnegie Mellon's Entertainment Technology Center. Written in C++, completely wrapped in Python.
@@ -620,9 +622,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PySDL2](http://pysdl2.readthedocs.io/en/rel_0_9_5/) - A ctypes based wrapper for the SDL2 library.
 * [RenPy](https://www.renpy.org/) - A Visual Novel engine.
 
-## Geolocation
+## 地理位置
 
-*Libraries for geocoding addresses and working with latitudes and longitudes.*
+*地理编码地址和纬度和经度相关的库*
 
 * [django-countries](https://github.com/SmileyChris/django-countries) - A Django app that provides country choices for use with forms, flag icons static files, and a country field for models.
 * [GeoDjango](https://docs.djangoproject.com/en/dev/ref/contrib/gis/) - A world-class geographic web framework.
@@ -633,7 +635,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## HTML Manipulation
 
-*Libraries for working with HTML and XML.*
+*HTML和XML相关的库*
 
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Providing Pythonic idioms for iterating, searching, and modifying HTML or XML.
 * [bleach](https://github.com/mozilla/bleach) - A whitelist-based HTML sanitization and text linkification library.
@@ -649,7 +651,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## HTTP
 
-*Libraries for working with HTTP.*
+*HTTP相关的库*
 
 * [grequests](https://github.com/kennethreitz/grequests) - requests + gevent for asynchronous HTTP requests.
 * [httplib2](https://github.com/httplib2/httplib2) - Comprehensive HTTP client library.
@@ -657,9 +659,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [treq](https://github.com/twisted/treq) - Python requests like API built on top of Twisted's HTTP client.
 * [urllib3](https://github.com/shazow/urllib3) - A HTTP library with thread-safe connection pooling, file post support, sanity friendly.
 
-## Hardware
+## 硬件
 
-*Libraries for programming with hardware.*
+*硬件编程相关的库*
 
 * [ino](http://inotool.org/) - Command line toolkit for working with [Arduino](https://www.arduino.cc/).
 * [Pingo](http://www.pingo.io/) - Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo, etc.
@@ -668,9 +670,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [scapy](https://github.com/secdev/scapy) - A brilliant packet manipulation library.
 * [wifi](https://github.com/rockymeza/wifi) - A Python library and command line tool for working with WiFi on Linux.
 
-## Imagery
+## 图像
 
-*Libraries for manipulating images.*
+*操作图像的库*
 
 * [hmap](https://github.com/rossgoodwin/hmap) - Image histogram remapping.
 * [imgSeek](https://sourceforge.net/projects/imgseek/) - A project for searching a collection of images using visual similarity.
@@ -685,9 +687,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [thumbor](https://github.com/thumbor/thumbor) - A smart imaging service. It enables on-demand crop, re-sizing and flipping of images.
 * [wand](https://github.com/dahlia/wand) - Python bindings for [MagickWand](http://www.imagemagick.org/script/magick-wand.php), C API for ImageMagick.
 
-## Implementations
+## Python的实现
 
-*Implementations of Python.*
+*Python的实现*
 
 * [CLPython](https://github.com/metawilm/cl-python) - Implementation of the Python programming language written in Common Lisp.
 * [CPython](https://github.com/python/cpython) - **Default, most widely used implementation of the Python programming language written in C.** Optimizing Static Compiler for Python. Uses type mixins to compile Python into C or C++ modules resulting in large performance gains.
@@ -703,24 +705,24 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Pyston](https://github.com/dropbox/pyston) - A Python implementation built using LLVM and modern JIT techniques with the goal of achieving good performance.
 * [Stackless Python](https://bitbucket.org/stackless-dev/stackless/wiki/Home) - An enhanced version of the Python programming language which allows programmers to reap the benefits of thread-based programming without the performance and complexity problems associated with conventional threads.
 
-## Interactive Interpreter
+## 交互式解释器
 
-*Interactive Python interpreters (REPL).*
+*交互式Python解释器 (REPL).*
 
 * [bpython](https://github.com/bpython/bpython) - A fancy interface to the Python interpreter.
 * [Jupyter Notebook (IPython)](https://jupyter.org) - A rich toolkit to help you make the most out of using Python interactively.
 * [ptpython](https://github.com/jonathanslenders/ptpython) - Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
 
-## Internationalization
+## 国际化
 
-*Libraries for working with i18n.*
+*i18n相关的库*
 
 * [Babel](http://babel.pocoo.org/en/latest/) - An internationalization library for Python.
 * [PyICU](https://github.com/ovalhub/pyicu) - A wrapper of International Components for Unicode C++ library ([ICU](http://site.icu-project.org/)).
 
-## Job Scheduler
+## 作业调度
 
-*Libraries for scheduling jobs.*
+*作业调度*
 
 * [APScheduler](http://apscheduler.readthedocs.io/en/latest/) - A light but powerful in-process task scheduler that lets you schedule functions.
 * [django-schedule](https://github.com/thauber/django-schedule) - A calendaring app for Django.
@@ -732,18 +734,18 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Spiff](https://github.com/knipknap/SpiffWorkflow) - A powerful workflow engine implemented in pure Python.
 * [TaskFlow](https://docs.openstack.org/developer/taskflow/) - A Python library that helps to make task execution easy, consistent and reliable.
 
-## Logging
+## 日志
 
-*Libraries for generating and working with logs.*
+*生成和工作日志库*
 
 * [Eliot](https://github.com/ScatterHQ/eliot) - Logging for complex & distributed systems.
 * [logbook](http://logbook.readthedocs.io/en/stable/) - Logging replacement for Python.
 * [logging](https://docs.python.org/2/library/logging.html) - (Python standard library) Logging facility for Python.
 * [Sentry](https://pypi.python.org/pypi/sentry) - A realtime logging and aggregation server.
 
-## Machine Learning
+## 机器学习
 
-*Libraries for Machine Learning. See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).*
+*机器学习相关的库 See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).*
 
 * [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modelling for Humans.
 * [Metrics](https://github.com/dmlc/xgboost) - Machine learning evaluation metrics.
@@ -755,7 +757,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## MapReduce
 
-*Frameworks and libraries for MapReduce.*
+*MapReduce框架和库*
 
 * [dpark](https://github.com/douban/dpark) - Python clone of Spark, a MapReduce alike framework in Python.
 * [dumbo](https://github.com/klbostee/dumbo) - Python module that allows one to easily write and run Hadoop programs.
@@ -764,9 +766,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PySpark](http://spark.apache.org/docs/latest/programming-guide.html) - The Spark Python API.
 * [streamparse](https://github.com/Parsely/streamparse) - Run Python code against real-time streams of data. Integrates with [Apache Storm](http://storm.apache.org/).
 
-## Microsoft Windows
+## 微软 Windows
 
-*Python programming on Microsoft Windows.*
+*在微软Windows进行Python编程*
 
 * [Python(x,y)](http://python-xy.github.io/) - Scientific-applications-oriented Python Distribution based on Qt and Spyder.
 * [pythonlibs](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Unofficial Windows binaries for Python extension packages.
@@ -774,9 +776,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyWin32](https://sourceforge.net/projects/pywin32/) - Python Extensions for Windows.
 * [WinPython](https://winpython.github.io/) - Portable development environment for Windows 7/8.
 
-## Miscellaneous
+## 其他
 
-*Useful libraries or tools that don't fit in the categories above.*
+*不属于上面分类的库*
 
 * [blinker](https://github.com/jek/blinker) - A fast Python in-process signal/event dispatching system.
 * [itsdangerous](https://github.com/pallets/itsdangerous) - Various helpers to pass trusted data to untrusted environments.
@@ -784,9 +786,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Pychievements](https://github.com/PacketPerception/pychievements) - A framework for creating and tracking achievements.
 * [Tryton](http://www.tryton.org/) - A general purpose business framework.
 
-## Natural Language Processing
+## 自然语言处理
 
-*Libraries for working with human languages.*
+*人类语言处理相关的库*
 
 * [Jieba](https://github.com/fxsjy/jieba) - Chinese text segmentation.
 * [langid.py](https://github.com/saffsd/langid.py) - Stand-alone language identification system.
@@ -797,18 +799,18 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [TextBlob](https://github.com/sloria/TextBlob) - Providing a consistent API for diving into common NLP tasks.
 * [TextGrocery](https://github.com/2shou/TextGrocery) - A simple, efficient short-text classification tool based on LibLinear and Jieba.
 
-## Network Virtualization
+## 网络虚拟化
 
-*Tools and libraries for Virtual Networking and SDN (Software Defined Networking).*
+*虚拟网络和SDN (Software Defined Networking)的库*
 
 * [Mininet](http://mininet.org/) - A popular network emulator and API written in Python.
 * [POX](https://github.com/noxrepo/pox) - An open source development platform for Python-based Software Defined Networking (SDN) control applications, such as OpenFlow SDN controllers.
 * [Pyretic](http://frenetic-lang.org/pyretic/) - A member of the Frenetic family of SDN programming languages that provides powerful abstractions over network switches or emulators.
 * [SDX Platform](https://github.com/sdn-ixp/internet2award) - SDN based IXP implementation that leverages Mininet, POX and Pyretic.
 
-## Networking
+## 网络编程
 
-*Libraries for networking programming.*
+*网络编程库*
 
 * [asyncio](https://docs.python.org/3/library/asyncio.html) - (Python standard library) Asynchronous I/O, event loop, coroutines and tasks.
 * [diesel](https://github.com/dieseldev/diesel) - Greenlet-based event I/O Framework for Python.
@@ -817,16 +819,16 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Twisted](https://twistedmatrix.com/trac/) - An event-driven networking engine.
 * [txZMQ](https://github.com/smira/txZMQ) - Twisted based wrapper for the ZeroMQ message library.
 
-## News Feed
+## 动态信息
 
-*Libraries for building user's activities.*
+*建立用户活动的库*
 
 * [django-activity-stream](https://github.com/justquick/django-activity-stream) - Generating generic activity streams from the actions on your site.
 * [Stream-Framework](https://github.com/tschellenbach/Stream-Framework) - Building newsfeed and notification systems using Cassandra and Redis.
 
 ## ORM
 
-*Libraries that implement Object-Relational Mapping or data mapping techniques.*
+*实现对象关系映射和数据映射技术的库*
 
 * Relational Databases
     * [Django Models](https://docs.djangoproject.com/en/dev/topics/db/models/) - A part of Django.
@@ -848,9 +850,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [butterdb](https://github.com/terrible-ideas/butterdb) - A Python ORM for Google Drive Spreadsheets.
     * [dataset](https://github.com/pudo/dataset) - A JSON-based database.
 
-## Package Management
+## 包管理
 
-*Libraries for package and dependency management.*
+*包装和依赖管理*
 
 * [pip](https://pip.pypa.io/en/stable/) - The Python package and dependency manager.
     * [Python Package Index](https://pypi.python.org/pypi)
@@ -859,9 +861,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [pip-tools](https://github.com/jazzband/pip-tools) - A set of tools to keep your pinned Python dependencies fresh.
 * [wheel](http://pythonwheels.com/) - The new standard of Python distribution and are intended to replace eggs.
 
-## Package Repositories
+## 包库
 
-*Local PyPI repository server and proxies.*
+*本地PyPI库服务器和代理*
 
 * [warehouse](https://github.com/pypa/warehouse) - Next generation Python Package Repository (PyPI).
     * [Warehouse](https://pypi.org/)
@@ -869,9 +871,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [devpi](http://doc.devpi.net/latest/) - PyPI server and packaging/testing/release tool.
 * [localshop](https://github.com/jazzband/localshop) - Local PyPI server (custom packages and auto-mirroring of pypi).
 
-## Permissions
+## 权限
 
-*Libraries that allow or deny users access to data or functionality.*
+*允许或拒绝用户访问数据或功能的库*
 
 * [Carteblanche](https://github.com/neuman/python-carteblanche/) - Module to align code with thoughts of users and designers. Also magically handles navigation and permissions.
 * [django-guardian](https://github.com/django-guardian/django-guardian) - Implementation of per object permissions for Django 1.2+
